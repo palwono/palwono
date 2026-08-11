@@ -6,6 +6,11 @@ I am passionate about solving complex problems through data-driven approaches. I
 
 *Here are some of the data science challenges and models I have built:*
 
+- **[1st Consolation Prize - International Data Science Challenge (IDSC) 2026](https://github.com/palwono/bintang-glaucoma-detection)**
+  - **Objective:** Developed BINTANG (Biomedical Intelligence for Neural Tracking and Glaucoma), an automated AI triage engine to detect glaucomatous optic neuropathy from fundus images, aiming to prevent irreversible blindness.
+  - **Approach:** Designed a 4-stage clinical preprocessing pipeline (FOV Crop, Ben Graham Normalization, Green CLAHE, Unsharp Masking) and built a Dual-Backbone Ensemble fusing EfficientNet-B4 and ConvNeXt-Base. Engineered a novel "Quality-Weighted Focal Loss" to combat extreme class imbalance and integrated Grad-CAM for clinical explainability.
+  - **Result:** Achieved an Out-of-Fold (OOF) Image-Level AUC of 0.9888 and a Patient-Level AUC of 0.9950. Implemented Patient-Level Quality-Weighted Aggregation, which drastically reduced False Negatives by 93.75%, ensuring a safety-first diagnostic tool.
+
 - **[Participant - Data Science Competition (DSC) MCF ITB 2026](https://github.com/palwono/health-insurance-claim-forecasting)**
   - **Objective:** Mitigate financial risks caused by rising healthcare utilization by forecasting health insurance claim frequency, severity, and total trends.
   - **Approach:** Designed a Two-Part Ensemble Architecture integrating Holt-Winters, YoY Calibrated, Random Forest, and Theta models to predict claim frequency and severity independently. Implemented Walk-Forward Cross Validation to prevent look-ahead bias and applied Post-Hoc Bias Correction using probing data.
@@ -15,11 +20,6 @@ I am passionate about solving complex problems through data-driven approaches. I
   - **Objective:** Forecast international football match scores (1872–2026) by analyzing historical match results, Elo ratings, FIFA rankings, and socio-economic/geographical factors.
   - **Approach:** Engineered 68+ robust features using time-decayed target encoding and developed a diverse machine learning ensemble (LightGBM, XGBoost, CatBoost) optimized for Poisson and MAE objectives. Applied Isotonic Calibration and Dixon-Coles Correction via Maximum Likelihood Estimation (MLE) to accurately adjust low-scoring match probabilities.
   - **Result:** Successfully deployed a Joint Match-Level Optimization pipeline, achieving a highly competitive Augmented Weighted Mean Absolute Error (AW-MAE) score of 3.0941 against the evaluation ground truth.
-
-- **[1st Consolation Prize - International Data Science Challenge (IDSC) 2026](https://github.com/palwono/bintang-glaucoma-detection)**
-  - **Objective:** Developed BINTANG (Biomedical Intelligence for Neural Tracking and Glaucoma), an automated AI triage engine to detect glaucomatous optic neuropathy from fundus images, aiming to prevent irreversible blindness.
-  - **Approach:** Designed a 4-stage clinical preprocessing pipeline (FOV Crop, Ben Graham Normalization, Green CLAHE, Unsharp Masking) and built a Dual-Backbone Ensemble fusing EfficientNet-B4 and ConvNeXt-Base. Engineered a novel "Quality-Weighted Focal Loss" to combat extreme class imbalance and integrated Grad-CAM for clinical explainability.
-  - **Result:** Achieved an Out-of-Fold (OOF) Image-Level AUC of 0.9888 and a Patient-Level AUC of 0.9950. Implemented Patient-Level Quality-Weighted Aggregation, which drastically reduced False Negatives by 93.75%, ensuring a safety-first diagnostic tool.
 
 ### 🛠️ Core Toolkit
 
