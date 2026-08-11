@@ -6,7 +6,7 @@ I am passionate about solving complex problems through data-driven approaches. I
 
 *Here are some of the data science challenges and models I have built:*
 
-- **[Participant/Finalist - Data Science Competition (DSC) MCF ITB 2026](link-repo-mcf-itb)**
+- **[Participant - Data Science Competition (DSC) MCF ITB 2026](link-repo-mcf-itb)**
   - **Objective:** Mitigate financial risks caused by rising healthcare utilization by forecasting health insurance claim frequency, severity, and total trends[cite: 1].
   - **Approach:** Designed a Two-Part Ensemble Architecture integrating Holt-Winters, YoY Calibrated, Random Forest, and Theta models to predict claim frequency and severity independently. Implemented Walk-Forward Cross Validation to prevent look-ahead bias and applied Post-Hoc Bias Correction using probing data.
   - **Result:** Achieved an outstanding Mean Absolute Percentage Error (MAPE) of 5.66% on the Test A hold-out evaluation, outperforming all baseline models. Successfully projected peak claim activity for November 2025, forecasting 274 claims with a total severity of Rp12.75 billion.
