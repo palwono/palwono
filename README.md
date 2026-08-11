@@ -24,8 +24,8 @@ I am passionate about solving complex problems through data-driven approaches. I
 ### 🛠️ Core Toolkit
 
 - **Languages:** Python, SQL
-- **Libraries:** Pandas, NumPy, Scikit-Learn, XGBoost, Matplotlib
-- **Specialization:** Machine Learning, Predictive Modeling, Data Storytelling
+- **Libraries:** PyTorch, Scikit-Learn, LightGBM, XGBoost, CatBoost, Pandas, NumPy, Matplotlib
+- **Specialization:** Machine Learning, Predictive Modeling, Deep Learning, Computer Vision, Time Series Forecasting
 - **Soft Skills:** Organizational Leadership, Strategic Communications, Public Speaking
 
 ---
