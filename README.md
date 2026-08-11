@@ -35,5 +35,5 @@ I am passionate about solving complex problems through data-driven approaches. I
 <a href="https://linkedin.com/in/keenan-palwono" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" alt="LinkedIn" width="30"/></a>&nbsp;&nbsp;&nbsp;<a href="https://instagram.com/keenangadi_" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Instagram" width="30"/></a>
 <br>
 
-Instagram: @keenangadi_  
 LinkedIn: Keenan Palwono
+Instagram: @keenangadi_  
