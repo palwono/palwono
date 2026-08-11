@@ -37,3 +37,4 @@ I am passionate about solving complex problems through data-driven approaches. I
 
 LinkedIn: Keenan Palwono
 Instagram: @keenangadi_  
+LinkedIn: Keenan Palwono
