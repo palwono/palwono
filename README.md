@@ -11,7 +11,7 @@ I am passionate about solving complex problems through data-driven approaches. I
   - **Approach:** Designed a Two-Part Ensemble Architecture integrating Holt-Winters, YoY Calibrated, Random Forest, and Theta models to predict claim frequency and severity independently. Implemented Walk-Forward Cross Validation to prevent look-ahead bias and applied Post-Hoc Bias Correction using probing data.
   - **Result:** Achieved an outstanding Mean Absolute Percentage Error (MAPE) of 5.66% on the Test A hold-out evaluation, outperforming all baseline models. Successfully projected peak claim activity for November 2025, forecasting 274 claims with a total severity of Rp12.75 billion.
 
-- **[Participant - GAMMAFEST 2026 by IPB University]([link-repo-gammafest](https://github.com/palwono/international-football-score-prediction)**
+- **[Participant - GAMMAFEST 2026 by IPB University]([link-repo-gammafest](https://github.com/palwono/international-football-score-prediction))**
   - **Objective:** Forecast international football match scores (1872–2026) by analyzing historical match results, Elo ratings, FIFA rankings, and socio-economic/geographical factors.
   - **Approach:** Engineered 68+ robust features using time-decayed target encoding and developed a diverse machine learning ensemble (LightGBM, XGBoost, CatBoost) optimized for Poisson and MAE objectives. Applied Isotonic Calibration and Dixon-Coles Correction via Maximum Likelihood Estimation (MLE) to accurately adjust low-scoring match probabilities.
   - **Result:** Successfully deployed a Joint Match-Level Optimization pipeline, achieving a highly competitive Augmented Weighted Mean Absolute Error (AW-MAE) score of 3.0941 against the evaluation ground truth.
