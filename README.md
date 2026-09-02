@@ -21,10 +21,15 @@ I am passionate about solving complex problems through data-driven approaches. I
   - **Approach:** Engineered 68+ robust features using time-decayed target encoding and developed a diverse machine learning ensemble (LightGBM, XGBoost, CatBoost) optimized for Poisson and MAE objectives. Applied Isotonic Calibration and Dixon-Coles Correction via Maximum Likelihood Estimation (MLE) to accurately adjust low-scoring match probabilities.
   - **Result:** Successfully deployed a Joint Match-Level Optimization pipeline, achieving a highly competitive Augmented Weighted Mean Absolute Error (AW-MAE) score of 3.0941 against the evaluation ground truth.
 
+- **[Advanced Level Capstone: Smart Road Crack Inspection - Nalara Academy](https://github.com/palwono/smart-road-crack-inspection)**
+  - **Objective:** Developed an end-to-end Computer Vision system to automate road condition monitoring as the final graduation project for the Nalara Academy National AI & Deep Learning Acceleration Bootcamp.
+  - **Approach:** Deployed a Mobile-UNet hybrid architecture (MobileNetV2 encoder + custom U-Net decoder) via TensorFlow/Keras for lightweight pixel-level semantic segmentation. Extracted structural characteristics to formulate an automated 0-100 Severity Score and built a Streamlit web application.
+  - **Result:** Successfully delivered an interactive diagnostic UI with a live analytics dashboard, demonstrating production-ready deployment skills and securing graduation from the rigorous 96-hour advanced program.
+
 ### 🛠️ Core Toolkit
 
 - **Languages:** Python, SQL
-- **Libraries:** PyTorch, Scikit-Learn, LightGBM, XGBoost, CatBoost, Pandas, NumPy, Matplotlib
+- **Libraries:** PyTorch, TensorFlow/Keras, Scikit-Learn, LightGBM, XGBoost, CatBoost, Pandas, OpenCV, Streamlit
 - **Specialization:** Machine Learning, Predictive Modeling, Deep Learning, Computer Vision, Time Series Forecasting
 - **Soft Skills:** Organizational Leadership, Strategic Communications, Public Speaking
 
