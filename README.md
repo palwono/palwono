@@ -26,6 +26,11 @@ I am passionate about solving complex problems through data-driven approaches. I
   - **Approach:** Deployed a Mobile-UNet hybrid architecture (MobileNetV2 encoder + custom U-Net decoder) via TensorFlow/Keras for lightweight pixel-level semantic segmentation. Extracted structural characteristics to formulate an automated 0-100 Severity Score and built a Streamlit web application.
   - **Result:** Successfully delivered an interactive diagnostic UI with a live analytics dashboard, demonstrating production-ready deployment skills and securing graduation from the rigorous 96-hour advanced program.
 
+- **[Participant - National Statistics Challenge (NSC) 2026 Universitas Brawijaya](https://github.com/palwono/smart-farm-humidity-forecasting)**
+  - **Objective:** Forecast the relative humidity (%RH) of a smart farm environment for a 15-day horizon to optimize irrigation scheduling and mitigate biological risks, utilizing 62 days of high-frequency historical sensor data.
+  - **Approach:** Designed a robust preprocessing pipeline to handle extreme physical anomalies (e.g., negative water volumes) and temporal gaps using 30-minute interval resampling and linear interpolation. Engineered a Stacking Generalization architecture, combining XGBoost, LightGBM, and CatBoost with a non-negative Ridge Regression meta-model, validated through a rigorous 5-fold Time-Series Split.
+  - **Result:** The 4-model stacking ensemble successfully improved the local Out-of-Fold (OOF) RMSE to 7.2942. Achieved a Public Leaderboard RMSE score of 3.93174, though the Private Leaderboard evaluation highlighted the natural volatility of microclimate forecasting across different validation folds.
+
 ### 🛠️ Core Toolkit
 
 - **Languages:** Python, SQL
@@ -41,4 +46,4 @@ I am passionate about solving complex problems through data-driven approaches. I
 <br>
 
 LinkedIn: Keenan Palwono  
-Instagram: @keenangadi_  
+Instagram: @keenangadi_
