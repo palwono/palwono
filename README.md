@@ -11,6 +11,11 @@ I am passionate about solving complex problems through data-driven approaches. I
   - **Approach:** Designed a 4-stage clinical preprocessing pipeline (FOV Crop, Ben Graham Normalization, Green CLAHE, Unsharp Masking) and built a Dual-Backbone Ensemble fusing EfficientNet-B4 and ConvNeXt-Base. Engineered a novel "Quality-Weighted Focal Loss" to combat extreme class imbalance and integrated Grad-CAM for clinical explainability.
   - **Result:** Achieved an Out-of-Fold (OOF) Image-Level AUC of 0.9888 and a Patient-Level AUC of 0.9950. Implemented Patient-Level Quality-Weighted Aggregation, which drastically reduced False Negatives by 93.75%, ensuring a safety-first diagnostic tool.
 
+- **[Signal Processing & DE: Football Optical Tracking Analytics](https://github.com/palwono/football-optical-tracking-analytics)**
+  - **Objective:** Audited high-frequency (25Hz) optical sensor tracking data from Metrica Sports to mitigate camera artifacts and diagnose tactical anaerobic fatigue in players.
+  - **Approach:** Engineered a 13-point Linear Time-Invariant (LTI) Moving Average digital filter to denoise sensor jitter and validated the Nyquist-Shannon aliasing limit. Evaluated physical kinematics using Fast Fourier Transform (FFT) spectrum analysis and Z-domain Pole-Zero stability plots.
+  - **Result:** Successfully reconstructed clean velocity signals from raw $(X, Y)$ coordinates, quantifying a 55.4% drop in a midfielder's sprint capacity to justify second-half tactical substitutions.
+
 - **[Participant - Data Science Competition (DSC) MCF ITB 2026](https://github.com/palwono/health-insurance-claim-forecasting)**
   - **Objective:** Mitigate financial risks caused by rising healthcare utilization by forecasting health insurance claim frequency, severity, and total trends.
   - **Approach:** Designed a Two-Part Ensemble Architecture integrating Holt-Winters, YoY Calibrated, Random Forest, and Theta models to predict claim frequency and severity independently. Implemented Walk-Forward Cross Validation to prevent look-ahead bias and applied Post-Hoc Bias Correction using probing data.
@@ -31,16 +36,11 @@ I am passionate about solving complex problems through data-driven approaches. I
   - **Approach:** Designed a robust preprocessing pipeline to handle extreme physical anomalies (e.g., negative water volumes) and temporal gaps using 30-minute interval resampling and linear interpolation. Engineered a Stacking Generalization architecture, combining XGBoost, LightGBM, and CatBoost with a non-negative Ridge Regression meta-model, validated through a rigorous 5-fold Time-Series Split.
   - **Result:** The 4-model stacking ensemble successfully improved the local Out-of-Fold (OOF) RMSE to 7.2942. Achieved a Public Leaderboard RMSE score of 3.93174, though the Private Leaderboard evaluation highlighted the natural volatility of microclimate forecasting across different validation folds.
 
-- **[Participant - FIK FAIR 2026 Data Science Competition](https://github.com/palwono/cost-of-living-prediction)**
-  - **Objective:** Predict the Anonymous Competition Score (ACS), an indicator of relative cost of living, utilizing a highly constrained and fully anonymized dataset of 382 train observations and 24 features.
-  - **Approach:** Mitigated the extreme risk of variance explosion on small data by deploying **TabPFN v2**, a state-of-the-art tabular foundation model. Architected a **Dual-Representation Multi-Seed Ensemble (`T3_TA12_50`)**, fusing three stochastic raw-feature models to reduce in-context variance, alongside a PCA-augmented model leveraging 12 orthogonal components to retain 99.2% variance. The pipeline was systematically developed via local VS Code environments before final batch inference.
-  - **Result:** Achieved a Public Leaderboard RMSE of 8.03913 and a stable Private Leaderboard RMSE of 8.15130. Maintained absolute zero target leakage and avoided artificial post-processing like threshold clipping, demonstrating a principled, production-ready approach to micro-dataset modeling.
-
 ### 🛠️ Core Toolkit
 
 - **Languages:** Python, SQL
-- **Libraries:** PyTorch, TensorFlow/Keras, Scikit-Learn, TabPFN, LightGBM, XGBoost, CatBoost, Pandas, OpenCV, Streamlit
-- **Specialization:** Machine Learning, Predictive Modeling, Deep Learning, Computer Vision, Time Series Forecasting
+- **Libraries:** PyTorch, TensorFlow/Keras, Scikit-Learn, SciPy, LightGBM, XGBoost, CatBoost, Pandas, OpenCV, Streamlit
+- **Specialization:** Machine Learning, Predictive Modeling, Deep Learning, Computer Vision, Time Series Forecasting, Signal Processing
 - **Soft Skills:** Organizational Leadership, Strategic Communications, Public Speaking
 
 ---
