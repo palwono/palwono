@@ -1,4 +1,4 @@
-# Keenan Palwono <br> <small>[Data Science Student](#), [ML Engineering Enthusiast](#)</small>
+# Keenan Palwono <br> <small>[Data Science Student](#), [ML & Data Engineering Enthusiast](#)</small>
 
 I am passionate about solving complex problems through data-driven approaches. I actively hone my analytical and predictive modeling skills by participating in various data science competitions. Combining my technical foundation with a strong background in organizational leadership, I strive to build impactful solutions and communicate them effectively.
 
@@ -16,20 +16,15 @@ I am passionate about solving complex problems through data-driven approaches. I
   - **Approach:** Engineered a 13-point Linear Time-Invariant (LTI) Moving Average digital filter to denoise sensor jitter and validated the Nyquist-Shannon aliasing limit. Evaluated physical kinematics using Fast Fourier Transform (FFT) spectrum analysis and Z-domain Pole-Zero stability plots.
   - **Result:** Successfully reconstructed clean velocity signals from raw $(X, Y)$ coordinates, quantifying a 55.4% drop in a midfielder's sprint capacity to justify second-half tactical substitutions.
 
+- **[Data Warehouse & BI: TAKTIK.ID Football Analytics Platform](https://github.com/palwono/taktik-id-data-warehouse)**
+  - **Objective:** Architected an end-to-end Data Warehouse and Business Intelligence (BI) dashboard to solve data fragmentation and support data-driven tactical decisions for Indonesian amateur football clubs.
+  - **Approach:** Applied Kimball's Bottom-Up approach to design a Star Schema database comprising 5 dimension tables and 2 fact tables (player performance & club revenue) in SQLite3. Built a robust ETL pipeline via Python/Pandas to extract operational data, apply domain-specific business rules (e.g., position-based passing accuracy, clamped performance rating), and load the structured data seamlessly.
+  - **Result:** Successfully deployed a centralized Data Warehouse powering a comprehensive analytical dashboard prototype. Extracted actionable insights via SQL multidimensional queries to visualize top scorers, positional passing efficiency, and revenue trends, proving full-stack data engineering capabilities.
+
 - **[Participant - Data Science Competition (DSC) MCF ITB 2026](https://github.com/palwono/health-insurance-claim-forecasting)**
   - **Objective:** Mitigate financial risks caused by rising healthcare utilization by forecasting health insurance claim frequency, severity, and total trends.
   - **Approach:** Designed a Two-Part Ensemble Architecture integrating Holt-Winters, YoY Calibrated, Random Forest, and Theta models to predict claim frequency and severity independently. Implemented Walk-Forward Cross Validation to prevent look-ahead bias and applied Post-Hoc Bias Correction using probing data.
   - **Result:** Achieved an outstanding Mean Absolute Percentage Error (MAPE) of 5.66% on the Test A hold-out evaluation, outperforming all baseline models. Successfully projected peak claim activity for November 2025, forecasting 274 claims with a total severity of Rp12.75 billion.
-
-- **[Participant - GAMMAFEST 2026 by IPB University](https://github.com/palwono/international-football-score-prediction)**
-  - **Objective:** Forecast international football match scores (1872–2026) by analyzing historical match results, Elo ratings, FIFA rankings, and socio-economic/geographical factors.
-  - **Approach:** Engineered 68+ robust features using time-decayed target encoding and developed a diverse machine learning ensemble (LightGBM, XGBoost, CatBoost) optimized for Poisson and MAE objectives. Applied Isotonic Calibration and Dixon-Coles Correction via Maximum Likelihood Estimation (MLE) to accurately adjust low-scoring match probabilities.
-  - **Result:** Successfully deployed a Joint Match-Level Optimization pipeline, achieving a highly competitive Augmented Weighted Mean Absolute Error (AW-MAE) score of 3.0941 against the evaluation ground truth.
-
-- **[Advanced Level Capstone: Smart Road Crack Inspection - Nalara Academy](https://github.com/palwono/smart-road-crack-inspection)**
-  - **Objective:** Developed an end-to-end Computer Vision system to automate road condition monitoring as the final graduation project for the Nalara Academy National AI & Deep Learning Acceleration Bootcamp.
-  - **Approach:** Deployed a Mobile-UNet hybrid architecture (MobileNetV2 encoder + custom U-Net decoder) via TensorFlow/Keras for lightweight pixel-level semantic segmentation. Extracted structural characteristics to formulate an automated 0-100 Severity Score and built a Streamlit web application.
-  - **Result:** Successfully delivered an interactive diagnostic UI with a live analytics dashboard, demonstrating production-ready deployment skills and securing graduation from the rigorous 96-hour advanced program.
 
 - **[Participant - National Statistics Challenge (NSC) 2026 Universitas Brawijaya](https://github.com/palwono/smart-farm-humidity-forecasting)**
   - **Objective:** Forecast the relative humidity (%RH) of a smart farm environment for a 15-day horizon to optimize irrigation scheduling and mitigate biological risks, utilizing 62 days of high-frequency historical sensor data.
@@ -39,8 +34,8 @@ I am passionate about solving complex problems through data-driven approaches. I
 ### 🛠️ Core Toolkit
 
 - **Languages:** Python, SQL
-- **Libraries:** PyTorch, TensorFlow/Keras, Scikit-Learn, SciPy, LightGBM, XGBoost, CatBoost, Pandas, OpenCV, Streamlit
-- **Specialization:** Machine Learning, Predictive Modeling, Deep Learning, Computer Vision, Time Series Forecasting, Signal Processing
+- **Libraries:** PyTorch, TensorFlow/Keras, Scikit-Learn, SciPy, XGBoost, LightGBM, Pandas, Matplotlib, Seaborn
+- **Specialization:** Data Engineering, Signal Processing, Business Intelligence, Machine Learning, Deep Learning, Computer Vision, Time Series Forecasting
 - **Soft Skills:** Organizational Leadership, Strategic Communications, Public Speaking
 
 ---
