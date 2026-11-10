@@ -31,10 +31,15 @@ I am passionate about solving complex problems through data-driven approaches. I
   - **Approach:** Designed a robust preprocessing pipeline to handle extreme physical anomalies (e.g., negative water volumes) and temporal gaps using 30-minute interval resampling and linear interpolation. Engineered a Stacking Generalization architecture, combining XGBoost, LightGBM, and CatBoost with a non-negative Ridge Regression meta-model, validated through a rigorous 5-fold Time-Series Split.
   - **Result:** The 4-model stacking ensemble successfully improved the local Out-of-Fold (OOF) RMSE to 7.2942. Achieved a Public Leaderboard RMSE score of 3.93174, though the Private Leaderboard evaluation highlighted the natural volatility of microclimate forecasting across different validation folds.
 
+- **[Participant - FIK FAIR 2026 Data Science Competition](https://github.com/palwono/cost-of-living-prediction)**
+  - **Objective:** Predict the Anonymous Competition Score (ACS), an indicator of relative cost of living, utilizing a highly constrained and fully anonymized dataset of 382 train observations and 24 features[cite: 58, 59].
+  - **Approach:** Mitigated the extreme risk of variance explosion on small data by deploying **TabPFN v2**, a state-of-the-art tabular foundation model[cite: 92]. Architected a **Dual-Representation Multi-Seed Ensemble (`T3_TA12_50`)**, fusing three stochastic raw-feature models to reduce in-context variance, alongside a PCA-augmented model leveraging 12 orthogonal components to retain 99.2% variance[cite: 67, 92]. The pipeline was systematically developed via local VS Code environments before final batch inference.
+  - **Result:** Achieved a Public Leaderboard RMSE of 8.03913 and a stable Private Leaderboard RMSE of 8.15130[cite: 71, 93]. Maintained absolute zero target leakage and avoided artificial post-processing like threshold clipping, demonstrating a principled, production-ready approach to micro-dataset modeling[cite: 92].
+
 ### 🛠️ Core Toolkit
 
 - **Languages:** Python, SQL
-- **Libraries:** PyTorch, TensorFlow/Keras, Scikit-Learn, LightGBM, XGBoost, CatBoost, Pandas, OpenCV, Streamlit
+- **Libraries:** PyTorch, TensorFlow/Keras, Scikit-Learn, TabPFN, LightGBM, XGBoost, CatBoost, Pandas, OpenCV, Streamlit
 - **Specialization:** Machine Learning, Predictive Modeling, Deep Learning, Computer Vision, Time Series Forecasting
 - **Soft Skills:** Organizational Leadership, Strategic Communications, Public Speaking
 
